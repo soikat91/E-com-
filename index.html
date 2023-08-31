@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Project</title>
+    <meta name="description" content="Welcome to E-commerce Project Soikat express">
+    
+</head>
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" rel="stylesheet" />
+<!-- frnt awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font awesome cdn end -->
+<!-- custom css file -->
+<link rel="stylesheet" href="style.css">
+<!-- end custom css file -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+<style>
+
+
+
+    .ship{
+        background-color: #1d252d;
+        height: 90px;
+    }
+    .firstSection{
+
+        display: flex;        
+        height: 500px;
+    }
+
+    .lovely,.perfect{      
+        width: 33%;
+        padding: 40px;
+        text-align: center;
+
+    }
+    .lovely span,.perfect span{
+        color: #c59d5f;
+        display: block;
+        font-family:quentinregular;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 100;
+        letter-spacing: 0;
+        line-height: 1em;
+    }
+    .lovely h3,.perfect h3{
+
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: .025em;
+        line-height: 1.41em;
+        text-transform: uppercase;
+    }
+    .lovely h5,.perfect h5{
+
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: .25em;
+        line-height: 1.33em;
+        text-transform: uppercase;
+        margin-bottom: 53px;
+    }
+
+    .change{
+
+        background-color: #000000;
+        width: 33%;
+        padding: 40px;
+        text-align: center;
+    }
+    .change span{
+
+        color: #c59d5f;
+        display: block;
+        font-family:quentinregular;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 100;
+        letter-spacing: 0;
+        line-height: 1em;
+
+    }
+    .change h3{
+        color: white;
+        font-size: 34px;
+        font-weight: 700;
+        letter-spacing: .025em;
+        line-height: 1.41em;
+        text-transform: uppercase;
+        }
+        .change h5{
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: .25em;
+        line-height: 1.33em;
+        text-transform: uppercase;
+            margin-bottom: 53px;
+        }
+
+
+.link-btn a {
+    color: #c59d5f;
+    text-decoration: underline;
+    line-height: 1em;
+    font-size: 16px;
+    /* font-weight: 500; */
+    text-transform: uppercase;
+}
+
+.h{
+    height: 400px;
+}
+.lovely:hover .h{
+
+    border: 1px solid #c59d5f;
+}
+.change:hover .h{
+
+    border: 1px solid #c59d5f;
+}
+.perfect:hover .h{
+
+    border: 1px solid #c59d5f;
+}
+.paralax{
+    background-image: url("https://curly.qodeinteractive.com/wp-content/uploads/2018/04/h1-parallax-1.jpg");
+     min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7%;
+}
+
+ .paralax-title span{
+
+        color: #c59d5f;
+        display: block;
+        font-family:quentinregular;
+        font-size: 200px;
+        font-style: normal;
+        font-weight: 100;
+        letter-spacing: 0;
+        line-height: 1em;
+        opacity: .2;
+        text-align: center;
+
+ }
+ .paralex-contnet{
+    color: #fff;
+    position: relative;
+    top: -84px;
+    text-align: center;
+}   
+
+ .paralex-contnet h5{
+
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: .25em;
+        line-height: 1.33em;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+    }
+
+.paralex-contnet h2 {    
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: .025em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.paralex-contnet h6 {
+   
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7em;
+    width: 60%;    
+    margin-left: 20%;
+}
+
+</style>
+<body>
+    <!-- navbar starts-->
+
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav  id="menu" class="hidden">
+        <div class="nav-upper flex-around-space">
+            <div >
+                <a href="index.html" class="nav_link">
+                    <img class="logo" src="./images/logo.png" alt="profile icon"/>
+                </a>               
+            </div>
+            
+        
+      
+            <ul>
+                
+                <li class="nav_list">
+                    <a href="index.html" class="nav_link">Home</a>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html" class="nav_link about">About</a>
+                    <div class="dropdown-list">
+                        <p>
+                            <a href="">Company</a>
+                        </p>
+                        <p>
+                            <a href="">History</a>
+                        </p>
+                        <p>
+                            <a href="">Video</a>
+                        </p>
+
+                    </div>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html" class="nav_link">Product</a>
+                    <div class="dropdown-list">
+                        <p>
+                            <a href="">Salon 1</a>
+                        </p>
+                        <p>
+                            <a href="test.html">Salon 2</a>
+                        </p>
+                        <p>
+                            <a href="">Salon 3</a>
+                        </p>
+
+                    </div>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html" class="nav_link">Salon</a>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html" class="nav_link">News</a>
+                </li>           
+            </ul>
+
+            <div>
+                <a href="index.html" class="nav_link">
+                    <img class="profile_icon" src="./images/profile.png" alt="profile icon"/>
+                </a>
+            </div>
+    </div> 
+    </nav>
+    <!-- navbar ends -->
+     <header class="banner-item">
+                  
+
+            <div class="banner single-item" style="width:1800px;margin:auto auto">
+                <div>
+                    <img  src="./images/ban-2.png" alt="">
+                </div>
+
+                <div>
+                    <img  src="./images/banner.png" alt="" >
+                </div>
+               
+                
+            </div>
+            
+
+        
+    </header>
+
+    
+        <div class="container">
+
+            <div class="ship">
+
+                <div>
+                    hello
+                </div>
+                
+            </div>
+
+            <div class="firstSection">
+                <div class="lovely">
+                    <div class="h">
+                            <span>lovely</span>
+                        <h3>haricuts</h3>
+                        <h5>products new trends</h5>
+                        <div class="link-btn">
+
+                            <a href="">
+                                read more
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="change">
+                    <div class="h">
+                        <span>Change</span>
+                        <h3>haricuts</h3>
+                        <h5>products new trends</h5>
+                        <div class="link-btn">
+
+                            <a href="">
+                                read more
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="perfect">
+                     <div class="h">
+                    <span>Perfect</span>
+                    <h3>haricuts</h3>
+                    <h5>products new trends</h5>
+
+                    <div class="link-btn">
+
+                        <a href="">
+                            read more
+                        </a>
+                        
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="paralax">
+                <div class="paralax-title">
+                    <span>Makeover</span>
+
+                    <div class="paralex-contnet">
+
+                        <h5>NEW YORK • SINCE 2004</h5>
+                        <h2>LOVE IS IN THE HAIR</h2>
+                        <h6>You dream about sleek, healthy looking hair that looks picture perfect, ready to rock on any occasion? We will make your dreams come true.</h6>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+
+      
+        <section class="product-section">
+            <div class="title-text">
+                <h2>Products</h2>
+                <h3 class="h3-heading">
+                    <span>loren ipsum</span>
+                    <a href="" class="more">read more +</a>
+                </h3>
+            </div>
+            
+            <div class="flex">
+                <ul class="list">
+    
+                    <li>
+                        <div class="img overflow">
+                            <img src="./images/salon-1.png" alt="" width="60%">
+                        </div>
+                        <div class="title">
+                            <h4>nob</h4>
+                            <span class="more">Read More</span>                            
+
+                        </div>
+                        
+                    </li>
+                   <!--  <li>
+                        <img src="./images/salon-3.png" alt="" width="50%">
+                        <div class="title">
+                            <h4>nob</h4>
+                            <span class="more">Read More</span>                            
+
+                        </div>
+                    </li> -->
+                    
+                </ul>
+                <div class="TagImg">
+                    <img src="./images/salon-4.png" alt="">
+                </div>
+
+                <ul class="list">
+                    <li>
+                        <img src="./images/salon-2.png" alt="" width="50%">
+                        <div class="title">
+                            <h4>nob</h4>
+                            <span class="more">Read More</span>                            
+
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/salon-3.png" alt="" width="50%">
+                        <div class="title">
+                            <h4>nob</h4>
+                            <span class="more">Read More</span>                            
+
+                        </div>
+                    </li>
+                </ul>
+        
+            </div>
+
+
+
+
+        </section>
+       
+         <div class="about-section">
+
+           
+                <div class="image">
+                    
+                       <img src="./images/ban-2.png" alt="">
+                    
+                </div>
+                <div class="content">
+                    <h4>About</h4>
+                    <p>On the other hand, we denounce with righteous indignation and dislike men who 
+                    are so beguiled and demoralized by the charms of pleasure of the moment, 
+                    so blinded by desire, that they cannot foresee the pain
+                    These cases are perfectly simple and easy to distinguish. In a free hour,
+                    when our power of choice is untrammelled 
+                    are so beguiled and demoralized by the charms of pleasure of the moment, 
+                    so blinded by desire, that they cannot foresee the pain
+                    These cases are perfectly simple and easy to distinguish. In a free hour,
+                    when our power of choice is untrammelled
+                </p>
+                <a class="read-more" href="">Read More</a>
+                  
+                </div>
+              
+            </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col" >
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about-us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate programm</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col" >
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">payment option</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col" >
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">salon</a></li>
+                            <li><a href="#">spa</a></li>
+                            <li><a href="#">hair</a></li>
+                            <li><a href="#">facial</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col" >
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href=""> <i class="fab fa-facebook-f"></i></a>
+                            <a href=""> <i class="fab fa-twitter"></i></a>
+                            <a href=""> <i class="fab fa-instagram"></i></a>
+                            <a href=""> <i class="fab fa-pinterest"></i></a>
+                        </div>
+                       
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+                
+           
+
+
+
+
+
+          
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+<script src="./scripts/index.js"></script>
+</html>
